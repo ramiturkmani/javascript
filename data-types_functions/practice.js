@@ -91,3 +91,16 @@ assignGrade(60);
 
 
 //The Pluralizer
+function pluralize(noun, number) {
+    if (number == 1) {
+        console.log(`${number} ${noun}`);
+    } else {
+        console.log(`${number} ${noun}s`);
+    }
+}
+
+pluralize("dog", 1)
+pluralize("cat", 10)
+
+
+//The Fortune Teller

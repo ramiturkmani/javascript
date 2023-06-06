@@ -99,8 +99,24 @@ function pluralize(noun, number) {
     }
 }
 
-pluralize("dog", 1)
-pluralize("cat", 10)
+pluralize("dog", 1);
+pluralize("cat", 10);
 
 
 //The Fortune Teller
+function tellFortune(jobTitle, location, spouse, numChild) {
+    console.log(`You will be a ${jobTitle} in ${location}, and married to ${spouse} with ${numChild} kids.`);
+}
+
+tellFortune("Engineer", "Kanasas City", "Fatima", "4");
+
+
+//The Puppy Age Calculator
+function calculateDogAge(puppyAge) {
+    console.log(`Your doggie is ${puppyAge*7} years old in dog years!`);
+}
+
+calculateDogAge(3);
+
+
+//The Lifetime Supply Calculator
